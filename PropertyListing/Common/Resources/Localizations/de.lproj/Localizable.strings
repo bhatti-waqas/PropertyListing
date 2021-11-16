@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  PropertyListing
+
+  Created by Waqas Naseem on 11/14/21.
+  
+*/
+
+"key_title_properties" = "Properties";
+"key_title_address" = "Address: ";
