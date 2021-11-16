@@ -1,6 +1,6 @@
 //
 //  String.swift
-//  SIXTCoddingChallenge
+//  PropertyListing
 //
 //  Created by Waqas Naseem on 10/14/21.
 //
