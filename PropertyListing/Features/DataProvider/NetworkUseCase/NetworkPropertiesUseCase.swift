@@ -9,8 +9,6 @@ import Foundation
 import Combine
 
 final class NetworkPropertiesUseCase: PropertiesUseCase {
-    
-    
     private let networkService: NetworkServiceProtocol
     
     init(networkService: NetworkServiceProtocol) {

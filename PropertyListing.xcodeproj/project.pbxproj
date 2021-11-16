@@ -28,8 +28,6 @@
 		774B0AA2273FCFAB0020302F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B0A94273FCFAB0020302F /* UIColor+Extension.swift */; };
 		774B0AA3273FCFAB0020302F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B0A95273FCFAB0020302F /* Array.swift */; };
 		774B0AA4273FCFAB0020302F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B0A96273FCFAB0020302F /* UIViewController+Extension.swift */; };
-		774B0AA5273FCFAB0020302F /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B0A97273FCFAB0020302F /* UIStoryboard+Extension.swift */; };
-		774B0AA6273FCFAB0020302F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B0A98273FCFAB0020302F /* Int.swift */; };
 		774B0AA7273FCFAB0020302F /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B0A99273FCFAB0020302F /* UITableViewCell.swift */; };
 		774B0AA8273FCFAB0020302F /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B0A9A273FCFAB0020302F /* UIImageView.swift */; };
 		774B0AA9273FCFAB0020302F /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B0A9B273FCFAB0020302F /* UITableView+Extension.swift */; };
@@ -62,7 +60,7 @@
 		775E7F4B2743A2690092728C /* ListingNavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E7F4A2743A2690092728C /* ListingNavigatorMock.swift */; };
 		777D39AC274064D1000F2D8B /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 777D39AB274064D1000F2D8B /* SFProDisplay-Regular.ttf */; };
 		777D39B027406607000F2D8B /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D39AF27406607000F2D8B /* CustomFont.swift */; };
-		77C52DFB27424AC900CD072D /* ListingViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C52DFA27424AC900CD072D /* ListingViewModelDelegate.swift */; };
+		77FE69432743D16F0009800F /* ListNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FE69422743D16F0009800F /* ListNavigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,8 +100,6 @@
 		774B0A94273FCFAB0020302F /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		774B0A95273FCFAB0020302F /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		774B0A96273FCFAB0020302F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		774B0A97273FCFAB0020302F /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
-		774B0A98273FCFAB0020302F /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		774B0A99273FCFAB0020302F /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
 		774B0A9A273FCFAB0020302F /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		774B0A9B273FCFAB0020302F /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
@@ -134,7 +130,7 @@
 		775E7F4A2743A2690092728C /* ListingNavigatorMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingNavigatorMock.swift; sourceTree = "<group>"; };
 		777D39AB274064D1000F2D8B /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		777D39AF27406607000F2D8B /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
-		77C52DFA27424AC900CD072D /* ListingViewModelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewModelDelegate.swift; sourceTree = "<group>"; };
+		77FE69422743D16F0009800F /* ListNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,12 +318,12 @@
 			isa = PBXGroup;
 			children = (
 				774B0AAF273FD2AE0020302F /* ListViewModel */,
-				77C52DFA27424AC900CD072D /* ListingViewModelDelegate.swift */,
 				774B0AAD273FD24B0020302F /* ListView.swift */,
 				774B0A7F273FCF970020302F /* ListingCoordinator.swift */,
 				774B0AAB273FD2450020302F /* ListViewController.swift */,
 				777D39AD274065F2000F2D8B /* Theme */,
 				774B0A7B273FCF970020302F /* Cell */,
+				77FE69422743D16F0009800F /* ListNavigator.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -380,8 +376,6 @@
 				774B0A94273FCFAB0020302F /* UIColor+Extension.swift */,
 				774B0A95273FCFAB0020302F /* Array.swift */,
 				774B0A96273FCFAB0020302F /* UIViewController+Extension.swift */,
-				774B0A97273FCFAB0020302F /* UIStoryboard+Extension.swift */,
-				774B0A98273FCFAB0020302F /* Int.swift */,
 				774B0A99273FCFAB0020302F /* UITableViewCell.swift */,
 				774B0A9A273FCFAB0020302F /* UIImageView.swift */,
 				774B0A9B273FCFAB0020302F /* UITableView+Extension.swift */,
@@ -604,7 +598,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				774B0AA5273FCFAB0020302F /* UIStoryboard+Extension.swift in Sources */,
 				774B0AA9273FCFAB0020302F /* UITableView+Extension.swift in Sources */,
 				774B0A57273FCF7A0020302F /* AppDelegate.swift in Sources */,
 				771AA7D5274180B600FDE0B9 /* PropertyDetailViewModel.swift in Sources */,
@@ -616,11 +609,11 @@
 				774B0AAA273FCFAB0020302F /* AppNavigationController.swift in Sources */,
 				774B0AA2273FCFAB0020302F /* UIColor+Extension.swift in Sources */,
 				774B0AAE273FD24B0020302F /* ListView.swift in Sources */,
+				77FE69432743D16F0009800F /* ListNavigator.swift in Sources */,
 				774B0AB8273FD3490020302F /* NetworkServiceProtocol.swift in Sources */,
 				774B0A55273FCF7A0020302F /* AppServiceLocator.swift in Sources */,
 				774B0A9E273FCFAB0020302F /* BaseCoordinator.swift in Sources */,
 				774B0AAC273FD2450020302F /* ListViewController.swift in Sources */,
-				774B0AA6273FCFAB0020302F /* Int.swift in Sources */,
 				774B0A5B273FCF820020302F /* APIConstants.swift in Sources */,
 				775E7F3B2743899E0092728C /* CustomColor.swift in Sources */,
 				774B0AA0273FCFAB0020302F /* Run.swift in Sources */,
@@ -631,7 +624,6 @@
 				774B0A89273FCF970020302F /* ListingCoordinator.swift in Sources */,
 				774B0AE3273FDF0E0020302F /* PropertiesListViewModelState.swift in Sources */,
 				774B0AE1273FDEE10020302F /* PropertiesListViewModel.swift in Sources */,
-				77C52DFB27424AC900CD072D /* ListingViewModelDelegate.swift in Sources */,
 				774B0AD1273FD56E0020302F /* ListCell.swift in Sources */,
 				774B0A6D273FCF8D0020302F /* NetworkError.swift in Sources */,
 				774B0AA7273FCFAB0020302F /* UITableViewCell.swift in Sources */,

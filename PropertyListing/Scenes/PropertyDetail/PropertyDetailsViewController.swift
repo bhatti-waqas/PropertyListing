@@ -48,7 +48,6 @@ final class PropertyDetailsViewController: UIViewController {
     }
     
     private func configureUI() {
-//        rootView.backgroundColor = .white
         rootView.spinner.startAnimating()
     }
     

@@ -23,7 +23,6 @@ This project uses Swift Package Manager [SPM](https://swift.org/package-manager/
 <img src = "README Files/listing.png" width = 600>
 
 - Property Detail
-- This class is written in Objective-c as bonus point
 <br>
 <img src = "README Files/details.png" width = 600>
 

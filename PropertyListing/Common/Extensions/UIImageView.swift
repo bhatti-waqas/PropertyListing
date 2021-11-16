@@ -13,10 +13,10 @@ import SDWebImage
     backgroundColor = .black
     if let imageURL = url {
       sd_setImage(with: imageURL,
-                  placeholderImage: UIImage(named: "placeHolder"),
+                  placeholderImage: MobileAsset.PlaceHolder.getImage(),
                   options: [.scaleDownLargeImages], completed: nil)
     } else {
-      image = UIImage(named: "placeHolder")
+        image =  MobileAsset.PlaceHolder.getImage()
     }
     layer.cornerRadius = 8.0
     layer.masksToBounds = true
