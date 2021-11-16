@@ -13,7 +13,6 @@ enum PropertiesDetailViewModelState: Equatable {
     case failure(String)
 }
 
-
 final class PropertyDetailViewModel {
     private let useCase: PropertiesUseCase
     private let navigator: ListingNavigator

@@ -25,7 +25,6 @@ final class PropertiesViewControllersFactory {
         return viewController
     }
     
-    
     func makePropertyDetailViewController(navigator: ListingCoordinator, propertyId: String) -> PropertyDetailsViewController {
         let viewModel: PropertyDetailViewModel = PropertyDetailViewModel(useCase: useCase, propertyId: propertyId, navigator: navigator)
         let detailView: PropertyDetailsView = PropertyDetailsView()

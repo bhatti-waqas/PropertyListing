@@ -8,7 +8,6 @@
 import UIKit
 
 extension UIColor {
-        
     public static func color(_ hexString: String, alpha: CGFloat = 1) -> UIColor? {
         if (hexString.count > 7 || hexString.count < 7) { return nil }
         let r, g, b : CGFloat

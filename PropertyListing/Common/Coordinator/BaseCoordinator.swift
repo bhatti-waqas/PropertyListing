@@ -22,7 +22,6 @@ class BaseCoordinator<T: UIViewController>: NSObject, Coordinator {
     }
     
     //MARK: - Public Methods
-    
     /// show first view controller
     func start() {
         assertionFailure("child class must override it.")
